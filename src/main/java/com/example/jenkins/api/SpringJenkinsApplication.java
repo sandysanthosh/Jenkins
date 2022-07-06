@@ -12,7 +12,8 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void init()
 	{
-		System.out.println("running..");
+		System.out.println("running..2");
+		System.out.println("running..3");
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
